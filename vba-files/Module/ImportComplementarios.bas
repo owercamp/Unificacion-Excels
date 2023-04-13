@@ -8,3 +8,7 @@ End Sub
 Public Sub complementarios_mt(ByVal header As String)
   Debug.Print header
 End Sub
+
+Public Function header_complementarios(ByVal value As String) As String
+
+End Function

@@ -8,3 +8,7 @@ End Sub
 Public Sub espiro_mt(ByVal header As String)
   Debug.Print header
 End Sub
+
+Public Function header_espiro(ByVal value As String) As String
+
+End Function
