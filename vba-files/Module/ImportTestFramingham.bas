@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportTestFramingham"
 Option Explicit
 
+Dim fram_header_origin_dictionary As Scripting.Dictionary, fram_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub test_framingham_db(ByVal header As String)
   Debug.Print header
 End Sub

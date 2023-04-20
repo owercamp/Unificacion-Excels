@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportLaboratorios"
 Option Explicit
 
+Dim labs_header_origin_dictionary As Scripting.Dictionary, labs_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub laboratorios_db(ByVal header As String)
   Debug.Print header
 End Sub

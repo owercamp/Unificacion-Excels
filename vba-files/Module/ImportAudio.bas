@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportAudio"
 Option Explicit
 
+Dim audio_header_origin_dictionary As Scripting.Dictionary, audio_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub audio_db(ByVal header As String)
   Debug.Print header
 End Sub

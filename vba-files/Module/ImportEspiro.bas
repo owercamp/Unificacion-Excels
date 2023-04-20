@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportEspiro"
 Option Explicit
 
+Dim espiro_header_origin_dictionary As Scripting.Dictionary, espiro_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub espiro_db(ByVal header As String)
   Debug.Print header
 End Sub

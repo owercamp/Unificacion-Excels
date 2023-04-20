@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportPsicosensometrica"
 Option Explicit
 
+Dim senso_header_origin_dictionary As Scripting.Dictionary, senso_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub psicosensometrica_db(ByVal header As String)
   Debug.Print header
 End Sub

@@ -1,6 +1,8 @@
 Attribute VB_Name = "ImportPsicotecnica"
 Option Explicit
 
+Dim tecn_header_origin_dictionary As Scripting.Dictionary, tecn_header_destiny_dictionary As Scripting.Dictionary
+
 Public Sub psicotecnica_db(ByVal header As String)
   Debug.Print header
 End Sub
